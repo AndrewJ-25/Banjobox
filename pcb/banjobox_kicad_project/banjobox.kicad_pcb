@@ -87,33 +87,109 @@
 			(outputdirectory "")
 		)
 	)
-	(gr_rect
-		(start 131.064 84.328)
-		(end 201.676 121.92)
+	(gr_line
+		(start 51.308 47.244)
+		(end 164.084 33.528)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
-		(fill no)
-		(layer "F.Cu")
-		(uuid "8125712c-3d18-42ce-b1a0-66c2014b0d6d")
+		(layer "User.1")
+		(uuid "4428dc99-293f-4f84-9c85-13605511169e")
 	)
-	(zone
-		(layer "F.Cu")
-		(uuid "6ea46a34-2e36-4f5e-a714-1600ce51179c")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0.5)
+	(gr_line
+		(start 164.084 33.528)
+		(end 164.084 160.02)
+		(stroke
+			(width 0.1)
+			(type default)
 		)
-		(min_thickness 0.25)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
+		(layer "User.1")
+		(uuid "4934ef9f-77df-4904-bc9c-cfd381b82fd2")
+	)
+	(gr_line
+		(start 164.084 160.02)
+		(end 51.308 47.244)
+		(stroke
+			(width 0.1)
+			(type default)
 		)
-		(polygon
-			(pts
-				(xy 201.676 84.328) (xy 131.064 84.328) (xy 131.064 121.92) (xy 201.676 121.92)
+		(layer "User.1")
+		(uuid "e2e521ea-6728-40c2-ab21-1b789768e95d")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "2e7f18d5-d05d-400b-b5a9-56bfe50c65b4")
+		(pts
+			(xy 164.084 33.528) (xy 164.084 160.02)
+		)
+		(height 11.684)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "126.492"
+			(at 174.618 96.774 90)
+			(layer "Edge.Cuts")
+			(uuid "2e7f18d5-d05d-400b-b5a9-56bfe50c65b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "cb37868e-d049-4391-bc3e-99e17794b30b")
+		(pts
+			(xy 164.084 160.02) (xy 51.308 47.244)
+		)
+		(height 6.096)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "112.776"
+			(at 107.696 164.966 0)
+			(layer "User.1")
+			(uuid "cb37868e-d049-4391-bc3e-99e17794b30b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
 		)
 	)
