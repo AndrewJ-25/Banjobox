@@ -1808,27 +1808,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
+			(property "Reference" "U1"
+				(at 2.1433 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "SHT31-DIS"
-				(at 6.35 6.35 0)
+				(at 2.1433 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Sensor_Humidity:Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm"
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1897,10 +1899,10 @@
 				)
 			)
 			(symbol "SHT31-DIS_1_1"
-				(pin bidirectional line
-					(at 10.16 2.54 180)
+				(pin power_in line
+					(at 0 7.62 270)
 					(length 2.54)
-					(name "SDA"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1915,10 +1917,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 2.54 0)
+				(pin power_in line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "ADDR"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1926,24 +1928,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "ALERT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1961,6 +1945,24 @@
 							)
 						)
 					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "4"
 						(effects
 							(font
@@ -1969,10 +1971,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
+				(pin input line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "VDD"
+					(name "ADDR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1980,6 +1982,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1997,7 +2017,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2009,24 +2029,6 @@
 					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2391,7 +2393,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+BATT"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2416,7 +2418,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+BATT"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2448,7 +2450,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2459,7 +2461,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "global power battery"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2470,7 +2472,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+BATT_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2508,7 +2510,134 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-BATT"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-BATT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-BATT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-BATT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-BATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2835,7 +2964,7 @@
 	)
 	(rectangle
 		(start 109.22 85.09)
-		(end 162.56 128.27)
+		(end 162.56 134.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -2908,6 +3037,12 @@
 		(uuid "2288214c-c0af-4566-9149-9fbe8af67527")
 	)
 	(junction
+		(at 118.11 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2849f0ab-2ea7-4826-ad82-561cbba0ee5e")
+	)
+	(junction
 		(at 115.57 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2924,12 +3059,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b15f25f-e778-458d-93f0-8b9ccab7bb61")
-	)
-	(junction
-		(at 118.11 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c950db5-7067-4e41-9de7-f2ee1916118f")
 	)
 	(junction
 		(at 193.04 111.76)
@@ -2954,6 +3083,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbee7ad1-6d5f-4201-8944-d1a47b330750")
+	)
+	(junction
+		(at 134.62 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7f9ff59-a00a-4c42-9435-ac18b0f22809")
 	)
 	(junction
 		(at 60.96 132.08)
@@ -3105,7 +3240,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 118.11) (xy 134.62 115.57)
+			(xy 134.62 115.57) (xy 134.62 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3175,6 +3310,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 123.19) (xy 125.73 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea6a261-2028-4846-8a29-b06fe4e4c063")
+	)
+	(wire
+		(pts
 			(xy 210.82 124.46) (xy 210.82 139.7)
 		)
 		(stroke
@@ -3192,6 +3337,16 @@
 			(type default)
 		)
 		(uuid "498bf6b5-9aa7-4dff-9b90-ac92d21e9436")
+	)
+	(wire
+		(pts
+			(xy 125.73 124.46) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be1a67d-cc72-4016-a3d8-8a0066f61e2d")
 	)
 	(wire
 		(pts
@@ -3332,6 +3487,16 @@
 			(type default)
 		)
 		(uuid "71329394-01a4-46a0-ad43-b24351e0192a")
+	)
+	(wire
+		(pts
+			(xy 118.11 100.33) (xy 118.11 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746d9a38-c2fe-44a2-94c2-619dd759945c")
 	)
 	(wire
 		(pts
@@ -3495,16 +3660,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 104.14) (xy 118.11 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c90003fc-f939-428f-8644-be2e5a58db7b")
-	)
-	(wire
-		(pts
 			(xy 60.96 124.46) (xy 60.96 132.08)
 		)
 		(stroke
@@ -3532,6 +3687,16 @@
 			(type default)
 		)
 		(uuid "d54505f5-f3f7-4bcf-b1bd-b07995fd4b05")
+	)
+	(wire
+		(pts
+			(xy 134.62 124.46) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92376ca-d61e-4211-bde6-1b575f40588c")
 	)
 	(wire
 		(pts
@@ -3991,7 +4156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "032b881c-e45f-4ab4-8e35-8c4a4fa73b09")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 52.07 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,7 +4218,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4071,7 +4236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "072ea6c2-5624-47ce-aa8a-6ec5a2ed2141")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 200.66 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4133,7 +4298,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4151,7 +4316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1501d537-89ab-4e11-a877-681faf1f0b71")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 193.04 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4211,7 +4376,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4229,7 +4394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19fa8491-89e9-41fa-b9fc-e0c20eb043ce")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 134.62 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +4459,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4312,7 +4477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "200711b7-4080-4433-b50a-ee7ad1c1eb94")
-		(property "Reference" "C2"
+		(property "Reference" "C8"
 			(at 226.06 95.6309 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4376,7 +4541,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "C2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4416,7 +4581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 50.8 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4497,7 +4662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a29b1bd-9762-423f-8713-4525ded60376")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR018"
 			(at 199.39 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4557,7 +4722,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR012")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4746,7 +4911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37b7cdf2-3318-4997-a8a9-17b61b197c58")
-		(property "Reference" "C9"
+		(property "Reference" "C4"
 			(at 151.13 105.7909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4810,7 +4975,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "C9")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4828,7 +4993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bbb4c9d-287a-46c4-a92b-8312721f3a28")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR010"
 			(at 116.84 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -4888,7 +5053,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR05")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4906,7 +5071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f176c67-730f-45e0-8270-dbf47ef1a9b1")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 238.3633 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4988,7 +5153,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5006,7 +5171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b698466-a385-4680-bbd5-9023c5e3c63f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 158.75 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -5066,7 +5231,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5084,7 +5249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52c8d559-a999-4256-bfa4-c5bc837508ae")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR03"
 			(at 48.26 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5144,85 +5309,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 111.76 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "570d0729-9b8b-4447-8efb-166652f6e8f0")
-		(property "Reference" "#PWR025"
-			(at 111.76 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 111.76 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 111.76 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e67b3296-bab6-49e0-b16c-275307c3faac")
-		)
-		(instances
-			(project "banjobox"
-				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR025")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5240,7 +5327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cc9ee0f-9581-4aca-a5e1-772ee863c51d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR016"
 			(at 193.04 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5300,7 +5387,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR022")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5318,7 +5405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "609737d7-2374-4ead-9913-11f3a33c980f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR019"
 			(at 203.2 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5378,7 +5465,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR02")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5396,7 +5483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "613c8059-5b6a-487c-b63d-91024b404657")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 158.75 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5494,7 +5581,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5502,7 +5589,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 118.11 0)
+		(at 134.62 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5512,8 +5599,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "621f6ab2-c3dc-45a9-a595-a99e6802b5e2")
-		(property "Reference" "#PWR023"
-			(at 134.62 124.46 0)
+		(property "Reference" "#PWR012"
+			(at 134.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5524,7 +5611,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 123.19 0)
+			(at 134.62 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5534,7 +5621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 118.11 0)
+			(at 134.62 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5545,7 +5632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 118.11 0)
+			(at 134.62 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5556,7 +5643,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 118.11 0)
+			(at 134.62 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5572,7 +5659,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR023")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5590,7 +5677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62f732e5-aab4-460d-898a-988454c7c821")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 50.8 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5650,7 +5737,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5750,7 +5837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63ba2c1a-7a7d-4fce-88e5-2f9c0dafe6f4")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 43.18 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5812,7 +5899,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5830,7 +5917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7417cac8-56d8-4969-9606-632f8e21b550")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 69.85 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5900,7 +5987,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5918,7 +6005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a05acd7-3a36-462f-94d7-c66c6ab92556")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR01"
 			(at 30.48 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5978,7 +6065,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR015")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5996,7 +6083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c0e9d20-79e0-4727-9367-d0d0076bbc76")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 196.85 42.2909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6060,7 +6147,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6078,7 +6165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a25c2bbd-63df-4136-8a3c-d9188152b80e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR013"
 			(at 147.32 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6138,7 +6225,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR024")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6156,7 +6243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa1bc2e3-42ee-4781-9ccb-159d6e4baeaf")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR015"
 			(at 190.5 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6216,7 +6303,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR01")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6233,7 +6320,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa5020e1-fa2d-47db-a1d4-d74b03377208")
-		(property "Reference" "C1"
+		(property "Reference" "C7"
 			(at 205.74 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6297,7 +6384,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2748609-7a0b-4c89-80fe-99eb1f912310")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 60.96 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6493,7 +6580,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6589,7 +6676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b71d42d8-f131-4e57-8300-12bbe85578d4")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 115.57 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6649,7 +6736,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6667,7 +6754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b73cbc6e-d6fa-45d6-8a8c-5e5c47a40d25")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 50.8 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6727,7 +6814,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6745,7 +6832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bedab5e0-e09b-4f55-9a9e-caa89c4d09bf")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 60.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6805,7 +6892,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6823,7 +6910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfbc6a58-1b8f-438c-a5c0-b4fdee11589f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR02"
 			(at 39.37 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6883,7 +6970,85 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR017")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 125.73 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1890eaf-6e72-4032-a619-33ed334ea0de")
+		(property "Reference" "#PWR025"
+			(at 125.73 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 125.73 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 125.73 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7212354f-66e9-4ae4-8d8d-4d5da1803393")
+		)
+		(instances
+			(project "banjobox"
+				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6901,7 +7066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c397231f-4654-45b8-a5f1-030f59f88653")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 121.92 105.7909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6965,7 +7130,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7054,6 +7219,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 118.11 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7de5972-9328-4c85-9cc3-5e0b3bef2a24")
+		(property "Reference" "#PWR024"
+			(at 118.11 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 118.11 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 118.11 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b74f56d3-5621-4e84-94f3-0ead6caac162")
+		)
+		(instances
+			(project "banjobox"
+				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 213.36 101.6 0)
 		(unit 1)
@@ -7065,7 +7308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc33c53e-f15c-4d5f-b658-0b06de4ce4cd")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR021"
 			(at 213.36 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7125,7 +7368,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR014")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7143,7 +7386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e62c2c44-5669-4808-b069-b4e58a979408")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR022"
 			(at 220.98 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7203,7 +7446,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR013")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7303,7 +7546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9fd12b3-1f27-472d-bcab-c110fba7eb27")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR023"
 			(at 236.22 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7363,7 +7606,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR011")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7381,7 +7624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdf767f1-9d15-49c5-a7a4-2c3428c900b7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 124.46 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7441,7 +7684,7 @@
 		(instances
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
