@@ -251,6 +251,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3025,6 +3148,12 @@
 		(uuid "e1dc5b8c-3eb4-4723-8192-feb4ca5798bb")
 	)
 	(junction
+		(at 252.73 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "165680c5-6267-4a47-967c-9e0a7b9e7db2")
+	)
+	(junction
 		(at 115.57 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3049,13 +3178,31 @@
 		(uuid "2c80a926-3118-40ff-ae14-90ee55520f4a")
 	)
 	(junction
+		(at 125.73 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dc2354d-9441-426e-bedd-7e3d1369fab9")
+	)
+	(junction
+		(at 118.11 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5574f4f1-b28f-4e7d-8928-5b130c440f97")
+	)
+	(junction
 		(at 134.62 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5eea6a5b-7077-4b02-8091-ef1b32c7b99c")
 	)
 	(junction
-		(at 193.04 40.64)
+		(at 252.73 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63b139fc-be66-430e-96da-a88b1bfb823a")
+	)
+	(junction
+		(at 195.58 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b15f25f-e778-458d-93f0-8b9ccab7bb61")
@@ -3129,8 +3276,8 @@
 		(uuid "9ed483f5-c41f-4547-b570-921515475514")
 	)
 	(no_connect
-		(at 179.07 41.91)
-		(uuid "d992c2ad-b66e-4423-a91a-b9cbf2e07b35")
+		(at 138.43 39.37)
+		(uuid "ba6b6a27-04cb-4252-a279-c663c17908db")
 	)
 	(no_connect
 		(at 179.07 44.45)
@@ -3200,7 +3347,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 48.26) (xy 193.04 50.8)
+			(xy 120.65 124.46) (xy 125.73 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3348ef-7ebb-4216-b6e0-ad2110eaf472")
+	)
+	(wire
+		(pts
+			(xy 195.58 48.26) (xy 195.58 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3300,7 +3457,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 36.83) (xy 185.42 40.64)
+			(xy 187.96 36.83) (xy 187.96 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3390,6 +3547,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 125.73) (xy 246.38 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56867149-e886-4edc-8dcc-b5daac6401fe")
+	)
+	(wire
+		(pts
 			(xy 118.11 115.57) (xy 134.62 115.57)
 		)
 		(stroke
@@ -3420,7 +3587,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 36.83) (xy 185.42 36.83)
+			(xy 179.07 36.83) (xy 187.96 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3437,6 +3604,16 @@
 			(type default)
 		)
 		(uuid "67cd9e55-ff2a-4d5c-952c-5426d3fd2d3c")
+	)
+	(wire
+		(pts
+			(xy 252.73 120.65) (xy 255.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699896a2-44d9-40fe-b62e-b1b586a91f4e")
 	)
 	(wire
 		(pts
@@ -3470,16 +3647,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 40.64) (xy 193.04 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "707b565d-bc11-46f4-a98e-ce7c2b4df17c")
-	)
-	(wire
-		(pts
 			(xy 185.42 34.29) (xy 185.42 26.67)
 		)
 		(stroke
@@ -3490,7 +3657,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 100.33) (xy 118.11 104.14)
+			(xy 118.11 100.33) (xy 118.11 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 120.65) (xy 255.27 120.65)
+			(xy 246.38 120.65) (xy 252.73 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3587,6 +3754,16 @@
 			(type default)
 		)
 		(uuid "93200f3b-738c-4ae0-9930-407810bb8c8f")
+	)
+	(wire
+		(pts
+			(xy 187.96 40.64) (xy 203.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936f06e5-24b0-45a6-9895-d6a223b81f41")
 	)
 	(wire
 		(pts
@@ -3650,13 +3827,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 40.64) (xy 193.04 40.64)
+			(xy 118.11 101.6) (xy 118.11 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6ff9104-2f18-46d1-9936-c05e015cd770")
+		(uuid "c747776c-d1cf-4f07-93b3-6e22ebf35cd3")
 	)
 	(wire
 		(pts
@@ -3730,7 +3907,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 125.73) (xy 246.38 125.73)
+			(xy 255.27 125.73) (xy 252.73 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3797,6 +3974,16 @@
 			(type default)
 		)
 		(uuid "f53cfd33-c630-43a8-941e-5188b53a0423")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 118.11 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6876b9c-b9ca-4c2d-b139-47a617434a9b")
 	)
 	(wire
 		(pts
@@ -3904,30 +4091,6 @@
 			)
 		)
 	)
-	(global_label "PWM"
-		(shape input)
-		(at 138.43 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "509eda32-ac3c-4635-8a8c-d5ef5e9ee09e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.272 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape input)
 		(at 107.95 44.45 180)
@@ -3965,6 +4128,30 @@
 		(uuid "82315285-b6d1-438f-9fd2-d0f8808f635f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 73.8028 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PWM"
+		(shape input)
+		(at 179.07 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "952c7f3e-908e-49ef-bbbb-b56b94f1bb6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.228 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5317,7 +5504,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 50.8 0)
+		(at 195.58 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5328,7 +5515,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cc9ee0f-9581-4aca-a5e1-772ee863c51d")
 		(property "Reference" "#PWR016"
-			(at 193.04 57.15 0)
+			(at 195.58 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5339,7 +5526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 55.88 0)
+			(at 195.58 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5349,7 +5536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 50.8 0)
+			(at 195.58 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5360,7 +5547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 50.8 0)
+			(at 195.58 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5371,7 +5558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 50.8 0)
+			(at 195.58 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5906,6 +6093,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f9011e3-44c8-4f77-816c-7e6cd4dc5054")
+		(property "Reference" "TP2"
+			(at 123.19 119.8879 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 123.19 122.4279 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 125.73 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52b3c84f-a561-4ad0-855b-13b92ad16ba1")
+		)
+		(instances
+			(project "banjobox"
+				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
 		(at 60.96 148.59 0)
 		(unit 1)
@@ -5994,6 +6262,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 252.73 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9417e568-5114-4ee0-9842-af7b69d43306")
+		(property "Reference" "TP3"
+			(at 255.27 116.0779 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 255.27 118.6179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 257.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 252.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da4a9dc2-8a44-4cc5-93ea-e473d871c93f")
+		)
+		(instances
+			(project "banjobox"
+				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 81.28 0)
 		(unit 1)
@@ -6073,7 +6422,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 193.04 44.45 0)
+		(at 195.58 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6084,7 +6433,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c0e9d20-79e0-4727-9367-d0d0076bbc76")
 		(property "Reference" "C5"
-			(at 196.85 42.2909 0)
+			(at 199.39 42.2909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6095,7 +6444,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 196.85 44.8309 0)
+			(at 199.39 44.8309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6106,7 +6455,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 194.0052 48.26 0)
+			(at 196.5452 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6117,7 +6466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 44.45 0)
+			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6128,7 +6477,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 193.04 44.45 0)
+			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7375,6 +7724,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 252.73 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd584db2-aeac-48b4-9fea-4239352d595c")
+		(property "Reference" "TP4"
+			(at 255.27 121.1579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 255.27 123.6979 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 257.81 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 252.73 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78e858cb-d9e5-48b8-afe7-f1efc7b65a33")
+		)
+		(instances
+			(project "banjobox"
+				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 220.98 139.7 0)
 		(unit 1)
@@ -7529,6 +7959,86 @@
 			(project "banjobox"
 				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed409287-4fab-4890-b624-4378681587fb")
+		(property "Reference" "TP1"
+			(at 110.49 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 99.5679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 119.38 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba0a389d-dafd-4201-b070-646786172f0e")
+		)
+		(instances
+			(project "banjobox"
+				(path "/e9efcbc3-04d6-4368-adc8-7837a0480666"
+					(reference "TP1")
 					(unit 1)
 				)
 			)

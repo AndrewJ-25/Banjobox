@@ -620,6 +620,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "Banjobox",
     "plot_directory": "",
     "reuse_designators": true,
@@ -632,7 +640,7 @@
         "uuid": "e9efcbc3-04d6-4368-adc8-7837a0480666"
       }
     ],
-    "used_designators": "SW1,RV1,LS1,R1-3,C1-8,#PWR1-25,U1-6",
+    "used_designators": "TP1-4",
     "variants": []
   },
   "sheets": [
