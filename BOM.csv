@@ -1,30 +1,27 @@
 Quantity, Item, Cost/£, Source
-1, Seeed Studios Xiao RP2040, 3.90, https://thepihut.com/products/seeed-xiao-rp2040?
+1, Seeed Studios Xiao RP2040, 3.90, https://thepihut.com/products/seeed-xiao-rp2040
 1, PCB, -, JLCPCB
-1, 0.91inch OLED, -, -
-1, EC11 Rotary Encoder, -, -
-1, SHT31 breakout board, -, -
+1, 0.91 inch OLED, 3.80, https://www.aliexpress.com/item/1005006365845676.html
+1, SHT31 breakout board, 1.57, https://www.aliexpress.com/item/32695064184.html
 -, Components, -, -
 
-1, 3W speaker, -, -
+1, 3W speaker, 3.40, https://thepihut.com/products/mono-enclosed-speaker-3w-4-ohm
 1, Toggle switch, -, -
-1, 3xAA battery holder, -, -
+1, 3xAA battery holder, 0.58, https://cpc.farnell.com/multicomp-pro/mp000323/3x-aa-battery-holder-coil-spring-contact-flat-solder-tag/dp/BT06503?
 -, 3D printed parts, -, -
 -, laser-cut acrylic, -, -
 
 6, Heatset insert, -, -
--, M3 screw, -, -
--, M4 screw, -, -
--, M3 nut, -, -
--, M4 nut, -, -
+13, M3 screw, -, -
+7, M3 nut, -, -
 -, Wood screws, -, -
 
 -, Softwood timber 15x80mm, -, -
 -, Softwood timber 15x25mm, -, -
 -, Plywood 9mm, 26, -
 2, Hinges, -, -
-2, Hook and latch, -, -
-2, Handle, -, -
-11, Rubber feet, -, -
+2, Hook and latch, 3.60, https://www.ebay.co.uk/itm/168179187930?_skw=box+latch
+1, Handle, 4.20, https://www.ebay.co.uk/itm/306436283287?_skw=leather+handle
+11, Rubber feet, 3.29, https://www.ebay.co.uk/itm/173200464234?_trkparms
 -, Foam padding, -, -
 -, Felt padding, -, -
