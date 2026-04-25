@@ -1,6 +1,6 @@
 Quantity, Item, Cost, Source
 1, PCB, --, JLCPCB
-1, 0.91", OLED, --, --
+1, 0.91inch OLED, --, --
 1, EC11 Rotary Encoder, --, --
 1, SHT31 breakout board, --, --
 1, PAM 8302 amplifier, --, --
