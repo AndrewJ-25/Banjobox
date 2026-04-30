@@ -2,7 +2,11 @@
 
 ![Alt text](images/banjobox_zine.jpg)
 
+Banjobox is a banjo case with a built in tuner and temperature/ humidity sensor. I designed it to store a mountain banjo I made but the case can be modified to accomodate other string instruments.
+
 Banjobox features a Seeed Studios Xiao RP2040 running MicroPython. UI consists of a rotary encoder and 0.91" OLED display. You can select different notes to be played through the speaker to tune your banjo.
+
+Pressing the rotary encoder button switches between monitor mode and tune mode. Monitor mode displays temperature and humidity readings. Tune mode plays a square wave. Turning the knob changes the note played.
 
 ### Features:
  - Seeed Studios Xiao RP2040
@@ -16,7 +20,7 @@ Banjobox features a Seeed Studios Xiao RP2040 running MicroPython. UI consists o
 https://cad.onshape.com/documents/49037cb32e4fd0c851c4d81b/w/99bbea41b70cb909ece41dd4/e/4da4cdf8e8884e6941d1b422?renderMode=0&uiState=69cc3025f9c68d0f90eed99a
 
 ## Schematic
-![Alt text](images/schematic.jpg)
+![Alt text](images/schematic.jpeg)
 
 ## Construction tips
 Construction of the case requires minimal woodworking skills and tools. I reccomend using some wood screws rather than relying on glue alone.
@@ -26,3 +30,7 @@ Construction of the case requires minimal woodworking skills and tools. I reccom
  - Remember to cut holes to run wires!
  - Hold battery holder in place with double sided tape or sticky foam.
  - Electronics parts are held in place by two acrylic covers. Use long M3 bolts or threaded rod to mount the PCB
+
+## Images
+![Alt text](images/zine_view.png)
+![Alt text](images/pcb_raytrace.png)
