@@ -8,6 +8,8 @@ Banjobox features a Seeed Studios Xiao RP2040 running MicroPython. UI consists o
 
 Pressing the rotary encoder button switches between monitor mode and tune mode. Monitor mode displays temperature and humidity readings. Tune mode plays a square wave. Turning the knob changes the note played.
 
+Files for 3D printing and laser cutting can be found in the OnShape project linked below.
+
 ### Features:
  - Seeed Studios Xiao RP2040
  - SHT31 temp + humidity sensor
