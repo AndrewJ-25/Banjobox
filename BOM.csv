@@ -1,4 +1,5 @@
 Quantity, Item, Cost/£, Source
+-, -, -, NOTE: Items which are ubiquitous or difficult to quantify have details omitted intentionally.
 1, Seeed Studios Xiao RP2040, 3.90, https://thepihut.com/products/seeed-xiao-rp2040
 1, PCB, -, JLCPCB
 1, 0.91 inch OLED, 3.80, https://www.aliexpress.com/item/1005006365845676.html
@@ -8,8 +9,8 @@ Quantity, Item, Cost/£, Source
 1, 3W speaker, 3.40, https://thepihut.com/products/mono-enclosed-speaker-3w-4-ohm
 1, Toggle switch, -, -
 1, 3xAA battery holder, 0.58, https://cpc.farnell.com/multicomp-pro/mp000323/3x-aa-battery-holder-coil-spring-contact-flat-solder-tag/dp/BT06503?
--, 3D printed parts, -, -
--, laser-cut acrylic, -, -
+6, 3D printed parts, -, -
+2, laser-cut acrylic, -, -
 
 6, Heatset insert, -, -
 13, M3 screw, -, -
