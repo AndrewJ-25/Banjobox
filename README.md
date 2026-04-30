@@ -30,6 +30,9 @@ Construction of the case requires minimal woodworking skills and tools. I reccom
  - Remember to cut holes to run wires!
  - Hold battery holder in place with double sided tape or sticky foam.
  - Electronics parts are held in place by two acrylic covers. Use long M3 bolts or threaded rod to mount the PCB
+ - 
+Remember to cut wire holes in the side supports! See below:
+![Alt text](images/more_images/wire_route.png)
 
 ## Images
 ![Alt text](images/zine_view.png)
