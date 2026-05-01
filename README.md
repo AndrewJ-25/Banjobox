@@ -44,3 +44,31 @@ PCB and speaker covers can be laser-cut from transparent acrylic. Cover supports
 ## Images
 ![Alt text](images/zine_view.png)
 ![Alt text](images/pcb_raytrace.png)
+
+## BOM
+NOTE: Links are suggestions only. Some parts are ubiquitous and purchasing online would be impractical.
+| Quantity | Item                          | Cost/£ | Source |
+|----------|-------------------------------|--------|--------|
+| 1        | Seeed Studios Xiao RP2040     | 3.90   | https://thepihut.com/products/seeed-xiao-rp2040 |
+| 1        | PCB                           | -      | https://jlcpcb.com/ |
+| 1        | 0.91 inch OLED               | 3.80   | https://www.aliexpress.com/item/1005006365845676.html |
+| 1        | SHT31 breakout board         | 1.57   | https://www.aliexpress.com/item/32695064184.html |
+| -        | Components                    | -      | https://www.digikey.co.uk/ |
+| 1        | 3W speaker                   | 3.40   | https://thepihut.com/products/mono-enclosed-speaker-3w-4-ohm |
+| 1        | Toggle switch                | 1.67   | https://www.digikey.co.uk/en/products/detail/cit-relay-and-switch/ANT11SEBQE/12503360 |
+| 1        | 3xAA battery holder          | 0.58   | https://cpc.farnell.com/multicomp-pro/mp000323/3x-aa-battery-holder-coil-spring-contact-flat-solder-tag/dp/BT06503 |
+| 6        | 3D printed parts             | -      | https://jlcpcb.com/ |
+| 2        | laser-cut acrylic            | -      | https://jlcpcb.com/ |
+| 6        | Heatset insert               | 2.89   | https://www.ebay.co.uk/itm/314297471901 |
+| 13       | M3 screw                     | 7.59   | https://www.ebay.co.uk/itm/305743217020 |
+| 7        | M3 nut                       | 3.38   | https://www.ebay.co.uk/itm/167673257973 |
+| -        | Wood screws                  | -      | https://www.diy.com/departments/hardiebacker-phillips-double-countersunk-metal-screw-pack-of-100/136774_BQ.prd |
+| -        | Softwood timber 15x80mm      | -      | https://www.diy.com/departments/cheshire-mouldings-smooth-planed-pine-stripwood-l-2-4m-w-92mm-t-15mm/1793548_BQ.prd |
+| -        | Softwood timber 15x25mm      | -      | https://www.diy.com/departments/cheshire-mouldings-smooth-planed-pine-stripwood-l-2-4m-w-92mm-t-15mm/1793548_BQ.prd |
+| 1        | Plywood 9mm                  | 12.47  | https://www.diy.com/departments/hardwood-plywood-l-810mm-w-405mm-t-9mm/1696255_BQ.prd |
+| 2        | Hinges                       | 1.97   | https://www.ebay.co.uk/itm/222426341432 |
+| 2        | Hook and latch               | 3.60   | https://www.ebay.co.uk/itm/168179187930 |
+| 1        | Handle                       | 4.20   | https://www.ebay.co.uk/itm/306436283287 |
+| 11       | Rubber feet                  | 3.29   | https://www.ebay.co.uk/itm/173200464234 |
+| -        | Foam padding                 | -      | https://www.ebay.co.uk/itm/112490209816 |
+| -        | Felt padding                 | -      | https://www.ebay.co.uk/itm/188091406494 |
