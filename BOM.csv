@@ -1,21 +1,21 @@
 Quantity, Item, Cost/£, Source
 -, -, -, NOTE: Items which are ubiquitous or difficult to quantify have details omitted intentionally.
 1, Seeed Studios Xiao RP2040, 3.90, https://thepihut.com/products/seeed-xiao-rp2040
-1, PCB, -, JLCPCB
+1, PCB, -, https://jlcpcb.com/
 1, 0.91 inch OLED, 3.80, https://www.aliexpress.com/item/1005006365845676.html
 1, SHT31 breakout board, 1.57, https://www.aliexpress.com/item/32695064184.html
 -, Components, -, https://www.digikey.co.uk/
 
 1, 3W speaker, 3.40, https://thepihut.com/products/mono-enclosed-speaker-3w-4-ohm
-1, Toggle switch, -, -
+1, Toggle switch, -, https://www.digikey.co.uk/en/products/detail/cit-relay-and-switch/ANT11SEBQE/12503360
 1, 3xAA battery holder, 0.58, https://cpc.farnell.com/multicomp-pro/mp000323/3x-aa-battery-holder-coil-spring-contact-flat-solder-tag/dp/BT06503?
 6, 3D printed parts, -, -
 2, laser-cut acrylic, -, -
 
-6, Heatset insert, -, -
-13, M3 screw, -, -
-7, M3 nut, -, -
--, Wood screws, -, -
+6, Heatset insert, -, https://www.ebay.co.uk/itm/314297471901?_skw=m3+heatset+insert
+13, M3 screw, -, https://www.ebay.co.uk/itm/305743217020?_skw=m3+screw
+7, M3 nut, -, https://www.ebay.co.uk/itm/303900633600?_skw=m3+nut
+-, Wood screws, -, https://www.diy.com/departments/hardiebacker-phillips-double-countersunk-metal-screw-pack-of-100/136774_BQ.prd
 
 -, Softwood timber 15x80mm, -, -
 -, Softwood timber 15x25mm, -, -
