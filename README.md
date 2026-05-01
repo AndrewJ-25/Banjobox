@@ -26,8 +26,8 @@ https://cad.onshape.com/documents/49037cb32e4fd0c851c4d81b/w/99bbea41b70cb909ece
 ## Schematic
 ![Alt text](images/schematic.jpeg)
 
-## Construction tips
-Construction of the case requires minimal woodworking skills and tools. I reccomend using some wood screws rather than relying on glue alone.
+## Case construction tips
+Construction of the case requires minimal woodworking skills and tools. I reccomend using some wood screws rather than relying on glue alone. A full set of plans can be found in the production folder.
 
  - Add felt padding where appropriate (including this in the CAD model was impractical). The green blocks on the lid can be made by wrapping foam with felt.
  - Heel supports can be reinforced with metal brackets or dowels
@@ -37,6 +37,9 @@ Construction of the case requires minimal woodworking skills and tools. I reccom
  - 
 Remember to cut wire holes in the side supports! See below:
 ![Alt text](images/more_images/wire_route.png)
+
+## Other hardware
+PCB and speaker covers can be laser-cut from transparent acrylic. Cover supports are 3D printed.
 
 ## Images
 ![Alt text](images/zine_view.png)
