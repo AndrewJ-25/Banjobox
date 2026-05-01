@@ -1,5 +1,4 @@
 Quantity, Item, Cost/£, Source
--, -, -, NOTE: Items which are ubiquitous or difficult to quantify have details omitted intentionally.
 1, Seeed Studios Xiao RP2040, 3.90, https://thepihut.com/products/seeed-xiao-rp2040
 1, PCB, -, https://jlcpcb.com/
 1, 0.91 inch OLED, 3.80, https://www.aliexpress.com/item/1005006365845676.html
@@ -7,22 +6,22 @@ Quantity, Item, Cost/£, Source
 -, Components, -, https://www.digikey.co.uk/
 
 1, 3W speaker, 3.40, https://thepihut.com/products/mono-enclosed-speaker-3w-4-ohm
-1, Toggle switch, -, https://www.digikey.co.uk/en/products/detail/cit-relay-and-switch/ANT11SEBQE/12503360
+1, Toggle switch, 1.67, https://www.digikey.co.uk/en/products/detail/cit-relay-and-switch/ANT11SEBQE/12503360
 1, 3xAA battery holder, 0.58, https://cpc.farnell.com/multicomp-pro/mp000323/3x-aa-battery-holder-coil-spring-contact-flat-solder-tag/dp/BT06503?
-6, 3D printed parts, -, -
-2, laser-cut acrylic, -, -
+6, 3D printed parts, -, https://jlcpcb.com/
+2, laser-cut acrylic, -, https://jlcpcb.com/
 
-6, Heatset insert, -, https://www.ebay.co.uk/itm/314297471901?_skw=m3+heatset+insert
-13, M3 screw, -, https://www.ebay.co.uk/itm/305743217020?_skw=m3+screw
-7, M3 nut, -, https://www.ebay.co.uk/itm/303900633600?_skw=m3+nut
+6, Heatset insert, 2.89, https://www.ebay.co.uk/itm/314297471901?_skw=m3+heatset+insert
+13, M3 screw, 7.59, https://www.ebay.co.uk/itm/305743217020?_skw=m3+screw
+7, M3 nut, 3.38, https://www.ebay.co.uk/itm/167673257973?_skw=m3+nut
 -, Wood screws, -, https://www.diy.com/departments/hardiebacker-phillips-double-countersunk-metal-screw-pack-of-100/136774_BQ.prd
 
--, Softwood timber 15x80mm, -, -
--, Softwood timber 15x25mm, -, -
-2, Plywood 9mm, 26, https://www.diy.com/departments/hardwood-plywood-l-810mm-w-405mm-t-9mm/1696255_BQ.prd
-2, Hinges, -, -
+-, Softwood timber 15x80mm, -, https://www.diy.com/departments/cheshire-mouldings-smooth-planed-pine-stripwood-l-2-4m-w-92mm-t-15mm/1793548_BQ.prd
+-, Softwood timber 15x25mm, -, https://www.diy.com/departments/cheshire-mouldings-smooth-planed-pine-stripwood-l-2-4m-w-92mm-t-15mm/1793548_BQ.prd
+1, Plywood 9mm, 12.47, https://www.diy.com/departments/hardwood-plywood-l-810mm-w-405mm-t-9mm/1696255_BQ.prd
+2, Hinges, 1.97, https://www.ebay.co.uk/itm/222426341432?_skw=hinges
 2, Hook and latch, 3.60, https://www.ebay.co.uk/itm/168179187930?_skw=box+latch
 1, Handle, 4.20, https://www.ebay.co.uk/itm/306436283287?_skw=leather+handle
 11, Rubber feet, 3.29, https://www.ebay.co.uk/itm/173200464234?_trkparms
--, Foam padding, -, -
+-, Foam padding, -, https://www.ebay.co.uk/itm/112490209816?_skw=foam
 -, Felt padding, -, https://www.ebay.co.uk/itm/188091406494?_skw=felt&it
