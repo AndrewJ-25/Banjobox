@@ -56,7 +56,7 @@ NOTE: Links are suggestions only. Some parts are ubiquitous and purchasing onlin
 | -        | Components                    | -      | https://www.digikey.co.uk/ |
 | 1        | 3W speaker                   | 3.40   | https://thepihut.com/products/mono-enclosed-speaker-3w-4-ohm |
 | 1        | Toggle switch                | 1.67   | https://www.digikey.co.uk/en/products/detail/cit-relay-and-switch/ANT11SEBQE/12503360 |
-| 1        | 3xAA battery holder          | 0.58   | https://cpc.farnell.com/multicomp-pro/mp000323/3x-aa-battery-holder-coil-spring-contact-flat-solder-tag/dp/BT06503 |
+| 1        | 3xAA battery holder          | 1.99   | https://www.ebay.co.uk/itm/358406972409?_skw=3+x+aa+battery+holder |
 | 6        | 3D printed parts             | -      | https://jlcpcb.com/ |
 | 2        | laser-cut acrylic            | -      | https://jlcpcb.com/ |
 | 6        | Heatset insert               | 2.89   | https://www.ebay.co.uk/itm/314297471901 |
