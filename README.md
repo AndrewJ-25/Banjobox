@@ -47,7 +47,7 @@ PCB and speaker covers can be laser-cut from transparent acrylic. Cover supports
 
 ## BOM
 NOTE: Links are suggestions only. Some parts are ubiquitous and purchasing online would be impractical.
-| Quantity | Item                          | Cost/£ | Source |
+| Quantity | Item                          | Cost/£ | Link |
 |----------|-------------------------------|--------|--------|
 | 1        | Seeed Studios Xiao RP2040     | 3.90   | https://thepihut.com/products/seeed-xiao-rp2040 |
 | 1        | PCB                           | -      | https://jlcpcb.com/ |
