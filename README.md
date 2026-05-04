@@ -63,9 +63,9 @@ NOTE: Links are suggestions only. Some parts are ubiquitous and purchasing onlin
 | 13       | M3 screw                     | 7.59   | https://www.ebay.co.uk/itm/305743217020 |
 | 7        | M3 nut                       | 3.38   | https://www.ebay.co.uk/itm/167673257973 |
 | -        | Wood screws                  | -      | https://www.diy.com/departments/hardiebacker-phillips-double-countersunk-metal-screw-pack-of-100/136774_BQ.prd |
-| -        | Softwood timber 15x80mm      | -      | https://www.diy.com/departments/cheshire-mouldings-smooth-planed-pine-stripwood-l-2-4m-w-92mm-t-15mm/1793548_BQ.prd |
-| -        | Softwood timber 15x25mm      | -      | https://www.diy.com/departments/cheshire-mouldings-smooth-planed-pine-stripwood-l-2-4m-w-92mm-t-15mm/1793548_BQ.prd |
-| 1        | Plywood 9mm                  | 12.47  | https://www.diy.com/departments/hardwood-plywood-l-810mm-w-405mm-t-9mm/1696255_BQ.prd |
+| -        | Softwood timber 15x80mm      | -      | https://www.homedepot.com/p/Waddell-Project-Board-24-in-x-4-in-x-0-5-in-Unfinished-S4S-Poplar-Hardwood-w-No-Finger-Joints-Ideal-for-DIY-Shelving-PB19418/329189316 |
+| -        | Softwood timber 15x25mm      | -      | https://www.homedepot.com/p/Waddell-Project-Board-24-in-x-4-in-x-0-5-in-Unfinished-S4S-Poplar-Hardwood-w-No-Finger-Joints-Ideal-for-DIY-Shelving-PB19418/329189316 |
+| 1        | Plywood 9mm                  | 30.00  | https://www.ebay.co.uk/itm/257438787345?_skw=9mm+plywood |
 | 2        | Hinges                       | 1.97   | https://www.ebay.co.uk/itm/222426341432 |
 | 2        | Hook and latch               | 3.60   | https://www.ebay.co.uk/itm/168179187930 |
 | 1        | Handle                       | 4.20   | https://www.ebay.co.uk/itm/306436283287 |
