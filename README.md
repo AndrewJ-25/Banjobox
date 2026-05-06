@@ -29,17 +29,25 @@ https://cad.onshape.com/documents/49037cb32e4fd0c851c4d81b/w/99bbea41b70cb909ece
 ## Case construction tips
 Construction of the case requires minimal woodworking skills and tools. I reccomend using some wood screws rather than relying on glue alone. A full set of plans can be found in the production folder.
 
+### General
  - Add felt padding where appropriate (including this in the CAD model was impractical). The green blocks on the lid can be made by wrapping foam with felt.
  - Heel supports can be reinforced with metal brackets or dowels
  - Remember to cut holes to run wires!
  - Hold battery holder in place with double sided tape or sticky foam.
+ - SHT31 breakout board to be fixed inside battery compartment with sticky foam. Speaker vents will ensure good airflow
  - Electronics parts are held in place by two acrylic covers. Use long M3 bolts or threaded rod to mount the PCB
- - 
+
+### 3D printing
+ - The PCB cover and speaker/ battery cover are each supported by three 3D printed columns
+ - Insert M3 heatset insert
+ - Glue in place
+
+### Laser cutting
+ - Laser cut PCB and spekeaker/ battery covers from clear acrylic
+ - Recommended 4mm but exact thickness is unimportant
+
 Remember to cut wire holes in the side supports! See below:
 ![Alt text](images/more_images/wire_route.png)
-
-## Other hardware
-PCB and speaker covers can be laser-cut from transparent acrylic. Cover supports are 3D printed.
 
 ## Images
 ![Alt text](images/zine_view.png)
