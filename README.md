@@ -46,29 +46,29 @@ PCB and speaker covers can be laser-cut from transparent acrylic. Cover supports
 ![Alt text](images/pcb_raytrace.png)
 
 ## BOM
-NOTE: Links are suggestions only. Some parts are ubiquitous and purchasing online would be impractical. I'm from Blighty hence some links might not work if you live overseas.
+NOTE: Links are suggestions only. Some parts are ubiquitous and purchasing online would be impractical. I'm from Blighty hence some links might not work if you live overseas. Prices may vary.
 | Quantity | Item                          | Cost/£ | Link |
 |----------|-------------------------------|--------|--------|
 | 1        | Seeed Studios Xiao RP2040     | 3.90   | https://thepihut.com/products/seeed-xiao-rp2040 |
-| 1        | PCB                           | -      | https://jlcpcb.com/ |
+| 1        | PCB                           | 5.00      | https://jlcpcb.com/ |
 | 1        | 0.91 inch OLED               | 3.80   | https://www.aliexpress.com/item/1005006365845676.html |
 | 1        | SHT31 breakout board         | 1.57   | https://www.aliexpress.com/item/32695064184.html |
-| -        | Components                    | -      | https://www.digikey.co.uk/ |
+| -        | Components                    | 10.00      | https://www.digikey.co.uk/ |
 | 1        | 3W speaker                   | 3.40   | https://thepihut.com/products/mono-enclosed-speaker-3w-4-ohm |
 | 1        | Toggle switch                | 1.67   | https://www.digikey.co.uk/en/products/detail/cit-relay-and-switch/ANT11SEBQE/12503360 |
 | 1        | 3xAA battery holder          | 1.99   | https://www.ebay.co.uk/itm/358406972409?_skw=3+x+aa+battery+holder |
-| 6        | 3D printed parts             | -      | https://jlcpcb.com/ |
-| 2        | laser-cut acrylic            | -      | https://jlcpcb.com/ |
+| 6        | 3D printed parts             | 2.00      | https://jlcpcb.com/ |
+| 2        | laser-cut acrylic            | 0.50      | https://jlcpcb.com/ |
 | 6        | Heatset insert               | 2.89   | https://www.ebay.co.uk/itm/314297471901 |
 | 13       | M3 screw                     | 7.59   | https://www.ebay.co.uk/itm/305743217020 |
 | 7        | M3 nut                       | 3.38   | https://www.ebay.co.uk/itm/167673257973 |
-| -        | Wood screws                  | -      | https://www.diy.com/departments/hardiebacker-phillips-double-countersunk-metal-screw-pack-of-100/136774_BQ.prd |
-| -        | Softwood timber 15x80mm      | -      | https://www.homedepot.com/p/Waddell-Project-Board-24-in-x-4-in-x-0-5-in-Unfinished-S4S-Poplar-Hardwood-w-No-Finger-Joints-Ideal-for-DIY-Shelving-PB19418/329189316 |
-| -        | Softwood timber 15x25mm      | -      | https://www.homedepot.com/p/Waddell-Project-Board-24-in-x-4-in-x-0-5-in-Unfinished-S4S-Poplar-Hardwood-w-No-Finger-Joints-Ideal-for-DIY-Shelving-PB19418/329189316 |
+| -        | Wood screws                  | 7.74      | https://www.ebay.co.uk/itm/277661008745?_skw=wood+screws |
+| -        | 15mm timber      | 16.00      | https://www.homedepot.com/p/Waddell-Project-Board-24-in-x-4-in-x-0-5-in-Unfinished-S4S-Poplar-Hardwood-w-No-Finger-Joints-Ideal-for-DIY-Shelving-PB19418/329189316 |
 | 1        | Plywood 9mm                  | 30.00  | https://www.ebay.co.uk/itm/257438787345?_skw=9mm+plywood |
 | 2        | Hinges                       | 1.97   | https://www.ebay.co.uk/itm/222426341432 |
 | 2        | Hook and latch               | 3.60   | https://www.ebay.co.uk/itm/168179187930 |
 | 1        | Handle                       | 4.20   | https://www.ebay.co.uk/itm/306436283287 |
 | 11       | Rubber feet                  | 3.29   | https://www.ebay.co.uk/itm/173200464234 |
-| -        | Foam padding                 | -      | https://www.ebay.co.uk/itm/112490209816 |
-| -        | Felt padding                 | -      | https://www.ebay.co.uk/itm/188091406494 |
+| -        | Foam padding                 | 10.99  | https://www.ebay.co.uk/itm/112490209816 |
+| -        | Felt padding                 | 6.25   | https://www.ebay.co.uk/itm/188091406494 |
+|TOTAL:    |                              | 131.73 | |
