@@ -54,7 +54,7 @@ Remember to cut wire holes in the side supports! See below:
 ![Alt text](images/pcb_raytrace.png)
 
 ## BOM
-NOTE: Links are suggestions only. Some parts are ubiquitous and purchasing online would be impractical. I'm from Blighty hence some links might not work if you live overseas. Prices may vary.
+NOTE: Links are suggestions only. Some parts are ubiquitous and purchasing online would be impractical not to mention expensive. I'm from the UK hence some links might not work if you live overseas. Prices may vary.
 | Quantity | Item                          | Cost/£ | Link |
 |----------|-------------------------------|--------|--------|
 | 1        | Seeed Studios Xiao RP2040     | 3.90   | https://thepihut.com/products/seeed-xiao-rp2040 |
