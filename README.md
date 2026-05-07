@@ -34,12 +34,12 @@ Construction of the case requires minimal woodworking skills and tools. I reccom
  - Heel supports can be reinforced with metal brackets or dowels
  - Remember to cut holes to run wires!
  - Hold battery holder in place with double sided tape or sticky foam.
- - SHT31 breakout board to be fixed inside battery compartment with sticky foam. Speaker vents will ensure good airflow
- - Electronics parts are held in place by two acrylic covers. Use long M3 bolts or threaded rod to mount the PCB
+ - SHT31 breakout board to be fixed inside battery compartment with sticky foam. Speaker vents will ensure good airflow.
+ - Electronics parts are held in place by two acrylic covers. Use long M3 bolts or threaded rod to mount the PCB.
 
 ### 3D printing
  - The PCB cover and speaker/ battery cover are each supported by three 3D printed columns
- - Insert M3 heatset insert
+ - Use M3 heatset inserts
  - Glue in place
 
 ### Laser cutting
