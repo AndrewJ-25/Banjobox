@@ -18,8 +18,8 @@ import sht31
 #define pins
 #do not use pull up/down if irl one already in place
 BUTTON_PIN = Pin(28, Pin.IN, Pin.PULL_UP)
-DIRECTION_PIN = Pin(9, Pin.IN, Pin.PULL_UP)
-STEP_PIN = Pin(1, Pin.IN, Pin.PULL_UP)
+DIRECTION_PIN = Pin(26, Pin.IN, Pin.PULL_UP)
+STEP_PIN = Pin(27, Pin.IN, Pin.PULL_UP)
 PWM_PIN = Pin(0)
 
 #instantiate objects
@@ -75,6 +75,7 @@ while True:
 
     #tone mode
     if current_mode == 0:
+
         """
         # check if mode has just been changed
         if current_mode != previous_mode:
@@ -86,6 +87,7 @@ while True:
             pwm.freq(int(NOTES[current_note][1]))
             pwm.duty_u16(32768)
             previous_note = current_note
+        """
 
         # rotary encoder logic: check if note needs to be changed
         step = STEP_PIN.value()
@@ -100,7 +102,6 @@ while True:
                     current_note += 1  #next note
                 current_note %= num_notes
             previous_value = step
-        """
 
         oled.fill(0)
         oled.text("Tone", 0, 0)
