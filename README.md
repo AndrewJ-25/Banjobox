@@ -1,6 +1,6 @@
 # Banjobox
 
-![Alt text](images/banjobox_zine.jpg)
+![Zine](images/zine_old.jpg)
 
 Banjobox is a banjo case with a built in tuner and temperature/ humidity sensor. I designed it to store a mountain banjo I made but the case can be modified to accomodate other string instruments.
 
@@ -24,7 +24,7 @@ Files for 3D printing and laser cutting can be found in the OnShape project link
 https://cad.onshape.com/documents/49037cb32e4fd0c851c4d81b/w/99bbea41b70cb909ece41dd4/e/4da4cdf8e8884e6941d1b422?renderMode=0&uiState=69cc3025f9c68d0f90eed99a
 
 ## Schematic
-![Alt text](images/schematic.jpeg)
+![Schematic](images/schematic.jpeg)
 
 ## Case construction tips
 Construction of the case requires minimal woodworking skills and tools. I reccomend using some wood screws rather than relying on glue alone. A full set of plans can be found in the production folder.
@@ -47,11 +47,11 @@ Construction of the case requires minimal woodworking skills and tools. I reccom
  - Recommended 4mm but exact thickness is unimportant
 
 Remember to cut wire holes in the side supports! See below:
-![Alt text](images/more_images/wire_route.png)
+![Wire run](images/more_images/wire_route.png)
 
 ## Images
-![Alt text](images/zine_view.png)
-![Alt text](images/pcb_raytrace.png)
+![render](images/zine_view.png)
+![prcb render](images/pcb_raytrace.png)
 
 ## BOM
 NOTE: Links are suggestions only. Some parts are ubiquitous and purchasing online would be impractical not to mention expensive. I'm from the UK hence some links might not work if you live overseas. Prices may vary.
