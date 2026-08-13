@@ -1,13 +1,5 @@
 """
-REPL: screen /dev/tty.usbmodem101 115200
-kill: screen -X -S 97181.ttys001.RE550 quit
-ctrl D soft reset
-    or
-ctrl A, => k =>y
-
-OLED shows 16 characters
-
-exec(open("main.py").read())
+Code courtesy of Captain Moonlite
 """
 
 from machine import Pin, I2C, PWM
@@ -29,7 +21,7 @@ pwm = PWM(PWM_PIN, freq=440, duty_u16=0)
 sensor = sht31.SHT31(i2c)
 
 oled.fill(0)
-oled.text("pls work ahahah", 0, 0)
+oled.text("BANJOBOX", 0, 0)
 oled.show()
 time.sleep(2)
 
@@ -58,11 +50,11 @@ current_mode = 0
 previous_mode = -1
 num_modes = len(MODES)
 
-#SHT31 interval
-READ_INTERVAL = 1
+#SHT31 read interval
+READ_INTERVAL = 40
 time_last_reading = time.ticks_ms()
 
-#idk wut this is
+#concerning rotary encoder
 previous_value = True
 
 #main loop
@@ -134,5 +126,5 @@ while True:
 
     last_button = button
 
-    #update display
+    #update display yippee
     oled.show()
