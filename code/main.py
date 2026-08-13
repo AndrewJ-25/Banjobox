@@ -9,7 +9,7 @@ OLED shows 16 characters
 
 exec(open("main.py").read())
 """
-print("pls workk ahahaha:)")
+
 from machine import Pin, I2C, PWM
 from ssd1306 import SSD1306_I2C
 import time
@@ -20,12 +20,12 @@ import sht31
 BUTTON_PIN = Pin(28, Pin.IN, Pin.PULL_UP)
 DIRECTION_PIN = Pin(26, Pin.IN, Pin.PULL_UP)
 STEP_PIN = Pin(27, Pin.IN, Pin.PULL_UP)
-PWM_PIN = Pin(0)
+PWM_PIN = Pin(4)
 
 #instantiate objects
 i2c = I2C(1, scl=Pin(7), sda=Pin(6), freq=400000) #freq: clock speed
 oled = SSD1306_I2C(128, 32, i2c)
-#pwm = PWM(PWM_PIN, freq=440, duty_u16=0)
+pwm = PWM(PWM_PIN, freq=440, duty_u16=0)
 sensor = sht31.SHT31(i2c)
 
 oled.fill(0)
@@ -76,18 +76,18 @@ while True:
     #tone mode
     if current_mode == 0:
 
-        """
         # check if mode has just been changed
         if current_mode != previous_mode:
             pwm.duty_u16(32768)
+            print("playing tone")
             previous_mode = current_mode
 
         if previous_note != current_note: #check if note has just been changed
             #start playing tone
             pwm.freq(int(NOTES[current_note][1]))
             pwm.duty_u16(32768)
+            print("playing new tone")
             previous_note = current_note
-        """
 
         # rotary encoder logic: check if note needs to be changed
         step = STEP_PIN.value()
@@ -109,11 +109,10 @@ while True:
 
     #sense mode
     elif current_mode == 1:
-        """
         if current_mode != previous_mode:  # check if mode has just been changed
             pwm.duty_u16(0) #stop playing tone
+            print("stopped playing note")
             previous_mode = current_mode
-        """
 
         if time.ticks_diff(now, time_last_reading) > READ_INTERVAL:
             temp, humidity = sensor.get_temp_humi()
@@ -122,11 +121,10 @@ while True:
 
             oled.fill(0)
             oled.text("Sense", 0, 0)
-            oled.text(f"{round(temp,1)}°C {round(humidity)}%", 0, 10)
+            oled.text(f"{round(temp,1)}.C {round(humidity)}%", 0, 10)
 
     #check if button pressed to change mode
     #button logic: True for not pressed, False for pressed
-    print(BUTTON_PIN.value())
     if button and not last_button: #ie if pressed and not pressed before
         if time.ticks_diff(now, time_last_pressed) > DEBOUNCE_TIME:
             print("button pushed")
