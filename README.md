@@ -31,9 +31,10 @@ Construction of the case requires minimal woodworking skills and tools. I reccom
 
 ### General
  - Add felt padding where appropriate (including this in the CAD model was impractical). The green blocks on the lid can be made by wrapping foam with felt.
+   ![padding](images/neck_padding.jpg)
  - Heel supports can be reinforced with metal brackets or dowels
  - Remember to cut holes to run wires!
- - Hold battery holder in place with double sided tape or sticky foam.
+ - Hold battery holder in place with velcro.
  - SHT31 breakout board to be fixed inside battery compartment with sticky foam. Speaker vents will ensure good airflow.
  - Electronics parts are held in place by two acrylic covers. Use long M3 bolts or threaded rod to mount the PCB.
 
@@ -49,7 +50,12 @@ Construction of the case requires minimal woodworking skills and tools. I reccom
 Remember to cut wire holes in the side supports! See below:
 ![Wire run](images/more_images/wire_route.png)
 
+### Note regarding PCB
+- In the final product, the external voltage regulator and accompanying capacitors were omitted in favour of the XIAO's onboard voltage regulator.
+
 ## Images
+![banjobox](images/box_open.jpg)
+![pcb](images/pcb_detail.jpg)
 ![render](images/zine_view.png)
 ![prcb render](images/pcb_raytrace.png)
 
