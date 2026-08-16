@@ -12,7 +12,10 @@ Pressing the rotary encoder button switches between monitor mode and tune mode. 
 
 Files for 3D printing and laser cutting can be found in the OnShape project linked below.
 
-### Features:
+### Demo
+https://www.youtube.com/watch?v=Ie8TWf3fN2Y
+
+### Features
  - Seeed Studios Xiao RP2040
  - SHT31 temp + humidity sensor
  - PAM8302 Class-D amp with 3W 4ohm speaker
@@ -31,6 +34,7 @@ Construction of the case requires minimal woodworking skills and tools. I reccom
 
 ### General
  - Add felt padding where appropriate (including this in the CAD model was impractical). The green blocks on the lid can be made by wrapping foam with felt.
+   
    ![padding](images/neck_padding.jpg)
  - Heel supports can be reinforced with metal brackets or dowels
  - Remember to cut holes to run wires!
