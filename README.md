@@ -1,6 +1,6 @@
 # Banjobox
 
-![Zine](images/zine_old.jpg)
+![Zine](images/zine.jpg)
 
 Banjobox is a banjo case with a built in tuner and temperature/ humidity sensor. I designed it to store a mountain banjo I made but the case can be modified to accomodate other string instruments.
 
