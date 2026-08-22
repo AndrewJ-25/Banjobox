@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=Ie8TWf3fN2Y
 https://cad.onshape.com/documents/49037cb32e4fd0c851c4d81b/w/99bbea41b70cb909ece41dd4/e/4da4cdf8e8884e6941d1b422?renderMode=0&uiState=69cc3025f9c68d0f90eed99a
 
 ## Schematic
-![Schematic](images/schematic.jpeg)
+![Schematic](images/schematic.jpg)
 
 ## Case construction tips
 Construction of the case requires minimal woodworking skills and tools. I reccomend using some wood screws rather than relying on glue alone. A full set of plans can be found in the production folder.
